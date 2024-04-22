@@ -1,0 +1,5 @@
+Total correct receptions: 540
+Total failed receptions: 103
+Total missed receptions: 0
+Packet reception rate:  83.98133748055989
+Packet reception rate with missed packets:  83.98133748055989

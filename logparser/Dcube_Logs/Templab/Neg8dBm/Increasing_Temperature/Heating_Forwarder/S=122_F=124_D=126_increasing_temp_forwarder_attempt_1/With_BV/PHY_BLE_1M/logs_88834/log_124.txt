@@ -1,0 +1,88 @@
+2023-09-27 00:18:32.525789|[0;34m[INFO: OSF       ] [0mInit OSF...
+2023-09-27 00:18:32.527089|[0;34m[INFO: OSF-CH    ] [0mChannel hopping init...
+2023-09-27 00:18:32.530620|[0;34m[INFO: OSF-CH    ] [0m- SCAN  1 [80,]
+2023-09-27 00:18:32.535444|[0;34m[INFO: OSF-CH    ] [0m- OSF   1 [80,]
+2023-09-27 00:18:32.541120|[0;34m[INFO: OSF       ] [0mOSF Config... (INFO)
+2023-09-27 00:18:32.543906|[0;34m[INFO: OSF       ] [0m- OSF_TS                       - 1
+2023-09-27 00:18:32.549402|[0;34m[INFO: OSF       ] [0m- OSF_NTX                      - 6
+2023-09-27 00:18:32.555305|[0;34m[INFO: OSF       ] [0m- OSF_MAX_MAX_SLOTS            - 6
+2023-09-27 00:18:32.560422|[0;34m[INFO: OSF       ] [0m- OSF_MAX_NODES                - 8
+2023-09-27 00:18:32.566965|[0;34m[INFO: OSF       ] [0m- OSF_TXPOWER                  - -8dBm
+2023-09-27 00:18:32.572428|[0;34m[INFO: OSF       ] [0m- OSF_PROTOCOL:                - OSF_PROTO_BCAST
+2023-09-27 00:18:32.579230|[0;34m[INFO: OSF       ] [0m- OSF_PROTO_EXTENSION:         - NONE
+2023-09-27 00:18:32.585827|[0;34m[INFO: OSF       ] [0m- OSF_DRIVER_EXTENSION:        - osf_bv
+2023-09-27 00:18:32.591674|[0;34m[INFO: OSF       ] [0mOSF Config... (DEBUG)
+2023-09-27 00:18:32.595723|[0;34m[INFO: OSF       ] [0m- OSF_PKT_PHY_LEN              - 2 bytes
+2023-09-27 00:18:32.601693|[0;34m[INFO: OSF       ] [0m- OSF_PKT_HDR_LEN              - 3 bytes
+2023-09-27 00:18:32.609487|[0;34m[INFO: OSF       ] [0m- OSF_DATA_LEN_MAX             - 246 bytes
+2023-09-27 00:18:32.614524|[0;34m[INFO: OSF       ] [0m- OSF_BITMASK_LEN              - 1 bytes
+2023-09-27 00:18:32.620338|[0;34m[INFO: OSF       ] [0mOSF PHY Timings... (DEBUG)
+2023-09-27 00:18:32.624856|[0;34m[INFO: OSF       ] [0m- RADIO_RAMPUP_TIME            - 647 (40us)
+2023-09-27 00:18:32.632429|[0;34m[INFO: OSF       ] [0m- OSF_TIFS_TICKS               - 32000 ticks | 2000 us
+2023-09-27 00:18:32.638822|[0;34m[INFO: OSF       ] [0m- OSF_PRE_EPOCH_GUARD          - 320000 (20000us)
+2023-09-27 00:18:32.646179|[0;34m[INFO: OSF       ] [0m- OSF_ROUND_GUARD              - 8000 (500us)
+2023-09-27 00:18:32.652397|[0;34m[INFO: OSF       ] [0m- OSF_RX_GUARD                 - 800 (50us)
+2023-09-27 00:18:32.660190|[0;34m[INFO: OSF       ] [0m- OSF_REF_SHIFT                - 1333 ticks | 83 us
+2023-09-27 00:18:32.667421|[0;37m[DBG : NODEID    ] [0mInit ID through deployment: 124
+2023-09-27 00:18:32.671418|[INFO: Main      ] Starting Contiki-NG-0112573b9-dirty
+2023-09-27 00:18:32.676162|[INFO: Main      ] - Routing: nullrouting
+2023-09-27 00:18:32.679658|[INFO: Main      ] - Net: nullnet
+2023-09-27 00:18:32.682973|[INFO: Main      ] - MAC: OSF
+2023-09-27 00:18:32.685516|[INFO: Main      ] - 802.15.4 PANID: 0xabcd
+2023-09-27 00:18:32.689234|[INFO: Main      ] - 802.15.4 Default channel: 26
+2023-09-27 00:18:32.693722|[INFO: Main      ] Node ID: 124
+2023-09-27 00:18:32.696244|[INFO: Main      ] Link-layer address: f4ce.36d2.3d23.f247
+2023-09-27 00:18:32.701553|[0;34m[INFO: App       ] [0mStarting...
+2023-09-27 00:18:32.705673|[0;34m[INFO: App       ] [0mInit TESTBED application...
+2023-09-27 00:18:32.709933|[0;34m[INFO: TESTBED   ] [0mStarting NULLTB Testbed...
+2023-09-27 00:18:32.714909|[0;34m[INFO: TESTBED   ] [0m- Configuring e2...
+2023-09-27 00:18:32.719479|[0;34m[INFO: TESTBED   ] [0m- Get traffic pattern...
+2023-09-27 00:18:32.724260|[0;33m[WARN: TESTBED   ] [0m > Using preset SRCs (x1)
+2023-09-27 00:18:32.730133|[0;33m[WARN: TESTBED   ] [0m > Using preset DSTs (x1)
+2023-09-27 00:18:32.733500|[0;33m[WARN: TESTBED   ] [0m > No traffic_pattern! Setting using # of SRC/DST
+2023-09-27 00:18:32.741848|[0;34m[INFO: TESTBED   ] [0m > traffic pattern is P2P (s:1 d:1 br:0)
+2023-09-27 00:18:32.747563|[0;33m[WARN: TESTBED   ] [0m > Using preset FWDs (x1)
+2023-09-27 00:18:32.751495|[0;34m[INFO: TESTBED   ] [0m- Init I2C...
+2023-09-27 00:18:32.755361|[0;34m[INFO: TESTBED   ] [0m- Started E2-W tb_eeprom_writer_process
+2023-09-27 00:18:32.761555|[0;34m[INFO: TESTBED   ] [0m- Started E2-U tb_update_pkt_flag_process
+2023-09-27 00:18:32.768429|[0;34m[INFO: TESTBED   ] [0m- Node type will be... D
+2023-09-27 00:18:32.772634|[0;34m[INFO: TESTBED   ] [0m- Printing testbed config...
+2023-09-27 00:18:32.777544|[0;34m[INFO: TESTBED   ] [0m > PATTERN 0:
+2023-09-27 00:18:32.782063|[0;34m[INFO: TESTBED   ] [0m  * My Node ID: 124
+2023-09-27 00:18:32.787065|[0;34m[INFO: TESTBED   ] [0m  * Traffic pattern: P2P (1)
+2023-09-27 00:18:32.791852|[0;34m[INFO: TESTBED   ] [0m  * Sources:
+2023-09-27 00:18:32.794469|[0;34m[INFO: TESTBED   ] [0m     0: 122
+2023-09-27 00:18:32.798435|[0;34m[INFO: TESTBED   ] [0m  * Destinations:
+2023-09-27 00:18:32.803511|[0;34m[INFO: TESTBED   ] [0m     0: 124
+2023-09-27 00:18:32.805888|[0;34m[INFO: TESTBED   ] [0m  * Aperiodic Upper: 0
+2023-09-27 00:18:32.810930|[0;34m[INFO: TESTBED   ] [0m  * Aperiodic Lower: 0
+2023-09-27 00:18:32.815173|[0;34m[INFO: TESTBED   ] [0m  * Delta: 0
+2023-09-27 00:18:32.820007|[0;34m[INFO: TESTBED   ] [0m  * Message Length: 246
+2023-09-27 00:18:32.823932|[0;34m[INFO: TESTBED   ] [0m  * Message OffsetH: 0
+2023-09-27 00:18:32.828022|[0;34m[INFO: TESTBED   ] [0m  * Message OffsetL: 0
+2023-09-27 00:18:32.833563|[0;34m[INFO: TESTBED   ] [0mNULLTB initialized - pattern id 0: pattern: P2P msg_len:246 node_type:D s:1 d:1 br:0 f:1
+2023-09-27 00:18:32.843849|[0;34m[INFO: OSF       ] [0mMacro output: 1[0;34m[INFO: OSF       ] [0mRegister a receive callback...
+2023-09-27 00:18:32.851900|[0;34m[INFO: OSF       ] [0m- OSF Timesync AUTO (P2P) set to node 122 ... I am NOT TS! (TS is 122)
+2023-09-27 00:18:32.861653|[0;34m[INFO: OSF-PROTO ] [0m--- OSF_ROUND_S --- 
+2023-09-27 00:18:32.865317|[0;34m[INFO: OSF-PROTO ] [0m- PHY              - 1M
+2023-09-27 00:18:32.871489|[0;34m[INFO: OSF-PROTO ] [0m- STATLEN          - TRUE
+2023-09-27 00:18:32.876091|[0;34m[INFO: OSF-PROTO ] [0m- HEADER_AIR_TIME  -      512 ticks |     32 us
+2023-09-27 00:18:32.882511|[0;34m[INFO: OSF-PROTO ] [0m- POST_ADDR_TIME   -        0 ticks |      0 us
+2023-09-27 00:18:32.889237|[0;34m[INFO: OSF-PROTO ] [0m- PAYLOAD_AIR_TIME -    32640 ticks |   2040 us | 255 B 
+2023-09-27 00:18:32.895891|[0;34m[INFO: OSF-PROTO ] [0m- FOOTER_AIR_TIME  -      256 ticks |     16 us
+2023-09-27 00:18:32.903832|[0;34m[INFO: OSF-PROTO ] [0m- PACKET_AIR_TIME  -    33408 ticks |   2088 us 
+2023-09-27 00:18:32.909793|[0;34m[INFO: OSF-PROTO ] [0m- TXRX_ADDR_OFFSET -      174 ticks |     11 us
+2023-09-27 00:18:32.916734|[0;34m[INFO: OSF-PROTO ] [0m- TXRX_END_OFFSET  -      158 ticks |     10 us
+2023-09-27 00:18:32.923335|[0;34m[INFO: OSF-PROTO ] [0m- SLOT_DURATION    -    65408 ticks |   4088 us
+2023-09-27 00:18:32.930681|[0;34m[INFO: OSF-PROTO ] [0m- ROUND_DURATION   -   360448 ticks |  22528 us
+2023-09-27 00:18:32.937265|[0;34m[INFO: OSF-BCAST ] [0m=== OSF_PROTO_BCAST ===
+2023-09-27 00:18:32.941240|[0;34m[INFO: OSF-BCAST ] [0m- PROTO LEN      - 1 rounds
+2023-09-27 00:18:32.946239|[0;34m[INFO: OSF-BCAST ] [0m- PROTO DURATION - 360448 ticks | 22528 us
+2023-09-27 00:18:32.957854|[0;34m[INFO: OSF       ] [0m- NVIC_GetPriority(RADIO_IRQn)  - 0 
+2023-09-27 00:18:32.962045|[0;34m[INFO: OSF       ] [0m- NVIC_GetPriority(TIMERX_IRQn) - 1 
+2023-09-27 00:18:32.967486|[0;34m[INFO: OSF       ] [0m- NVIC_GetPriority(USBD_IRQn)   - 0 
+2023-09-27 00:18:32.973380|[0;34m[INFO: OSF       ] [0m- NVIC_GetPriority(TIMER0_IRQn) - 2 
+2023-09-27 00:18:32.979806|[0;34m[INFO: OSF       ] [0m- NVIC_GetPriority(RTC0_IRQn)   - 5 
+2023-09-27 00:18:34.305835|[0;34m[INFO: OSF       ] [0m{124|syn-20  } <3
+2023-09-27 00:18:34.706740|[0;34m[INFO: OSF       ] [0m{124|syn-40  } <3
+2023-09-27 00:18:35.003106|EP:2,RND:1,N_RX:5,N_ERR_PKTS:4,BV_CNT:0,BV_SCS_FLAG:-1,ERRS:{28:1;37:4;53:2;78:3;86:2;193:4;195:1;196:4;198:1;199:4;203:3;216:1;224:1;226:4;239:3;358:2;360:3;365:3;369:1;385:1;387:3;388:1;393:4;398:4;504:3;520:3;525:4;528:1;542:1;544:1;548:4;549:1;551:2;558:4;567:1;666:1;682:3;690:1;694:2;707:2;715:4;

@@ -1,0 +1,46 @@
+
+This statistics is with Bit voting enaled
+Avg. Rx before correction: 3.772727272727273
+Total successful bit voting attempts: 22
+Total failed bit voting attempts: 74
+Percentage of successful bit voting attempts: 22.916666666666664
+Total correct receptions: 125
+Total failed receptions: 404
+Total missed receptions: 311
+Packet reception rate:  23.629489603024574
+Total correct deliveries: 42
+Total failed deliveries: 27
+Packet delivery rate:  60.86956521739131
+Total number of receptions: 529
+
+This statistics is without bit voting
+Total correct receptions: 101
+Total failed receptions: 295
+Total missed packets: 0
+Packet reception rate:  25.5050505050505
+Total correct deliveries: 34
+Total failed deliveries: 8
+Packet delivery rate:  80.95238095238095
+
+This statistics is with Bit voting enaled_64_pktlen
+Avg. Rx before correction: 3.4
+Total successful bit voting attempts: 5
+Total failed bit voting attempts: 16
+Percentage of successful bit voting attempts: 23.809523809523807
+Total correct receptions: 113
+Total failed receptions: 141
+Total missed receptions: 122
+Packet reception rate:  44.48818897637795
+Total correct deliveries: 38
+Total failed deliveries: 7
+Packet delivery rate:  84.44444444444444
+Total number of receptions: 254
+
+This statistics is without bit voting
+Total correct receptions: 114
+Total failed receptions: 110
+Total missed packets: 0
+Packet reception rate:  50.89285714285714
+Total correct deliveries: 38
+Total failed deliveries: 1
+Packet delivery rate:  97.43589743589743

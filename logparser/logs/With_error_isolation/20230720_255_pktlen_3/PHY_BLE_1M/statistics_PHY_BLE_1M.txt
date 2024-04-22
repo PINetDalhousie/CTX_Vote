@@ -1,0 +1,24 @@
+
+This statistics is with Bit voting enaled
+No successful corrections
+Total error packets: 25
+Total packets corrected: 0
+Total packets correction failed: 3
+Percentage of packets corrected: 0.0
+Total successful bit voting attempts: 0
+Total failed bit voting attempts: 1
+Percentage of successful bit voting attempts: 0.0
+Total correct receptions: 54
+Total failed receptions: 25
+Total missed receptions: 23
+Packet reception rate:  68.35443037974683
+Total correct deliveries: 54
+Total failed deliveries: 25
+Packet delivery rate:  68.35443037974683
+Total number of receptions: 79
+
+This statistics is without bit voting
+Total correct receptions: 70
+Total failed receptions: 24
+Total missed packets: 0
+Packet reception rate:  74.46808510638297

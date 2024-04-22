@@ -1,0 +1,155 @@
+[2023-07-20 18:56:49] picocom v3.1
+[2023-07-20 18:56:49] port is        : /dev/ttyACM1
+[2023-07-20 18:56:49] flowcontrol    : RTS/CTS
+[2023-07-20 18:56:49] baudrate is    : 115200
+[2023-07-20 18:56:49] parity is      : none
+[2023-07-20 18:56:49] databits are   : 8
+[2023-07-20 18:56:49] stopbits are   : 1
+[2023-07-20 18:56:49] escape is      : C-a
+[2023-07-20 18:56:49] local echo is  : no
+[2023-07-20 18:56:49] noinit is      : no
+[2023-07-20 18:56:49] noreset is     : no
+[2023-07-20 18:56:49] hangup is      : no
+[2023-07-20 18:56:49] nolock is      : no
+[2023-07-20 18:56:49] send_cmd is    : sz -vv
+[2023-07-20 18:56:49] receive_cmd is : rz -vv -E
+[2023-07-20 18:56:49] imap is        : lfcrlf,
+[2023-07-20 18:56:49] omap is        :
+[2023-07-20 18:56:49] emap is        : crcrlf,delbs,
+[2023-07-20 18:56:49] logfile is     : none
+[2023-07-20 18:56:49] initstring     : none
+[2023-07-20 18:56:49] exit_after is  : not set
+[2023-07-20 18:56:49] exit is        : no
+[2023-07-20 18:56:49] !! STDIN is not a TTY !! Continue anyway...
+[2023-07-20 18:56:49] Type [C-a] [C-h] to see available commands
+[2023-07-20 18:56:49] Terminal ready
+[2023-07-20 18:56:49] [INFO: OSF       ] - OSF_DATA_LEN_MAX             - 246 bytes
+[2023-07-20 18:56:49] [INFO: OSF       ] - OSF_BITMASK_LEN              - 1 bytes
+[2023-07-20 18:56:49] [INFO: OSF       ] OSF PHY Timings... (DEBUG)
+[2023-07-20 18:56:49] [INFO: OSF       ] - RADIO_RAMPUP_TIME            - 647 (40us)
+[2023-07-20 18:56:49] [INFO: OSF       ] - OSF_TIFS_TICKS               - 3200 ticks | 200 us
+[2023-07-20 18:56:49] [INFO: OSF       ] - OSF_PRE_EPOCH_GUARD          - 320000 (20000us)
+[2023-07-20 18:56:49] [INFO: OSF       ] - OSF_ROUND_GUARD              - 8000 (500us)
+[2023-07-20 18:56:49] [INFO: OSF       ] - OSF_RX_GUARD                 - 800 (50us)
+[2023-07-20 18:56:49] [INFO: OSF       ] - OSF_REF_SHIFT                - 1059 ticks | 66 us
+[2023-07-20 18:56:49] [DBG : NODEID    ] Init ID through deployment.
+[2023-07-20 18:56:49] [INFO: Main      ] Starting Contiki-NG-10bc0eb9a-dirty
+[2023-07-20 18:56:49] [INFO: Main      ] - Routing: nullrouting
+[2023-07-20 18:56:49] [INFO: Main      ] - Net: nullnet
+[2023-07-20 18:56:49] [INFO: Main      ] - MAC: OSF
+[2023-07-20 18:56:49] [INFO: Main      ] - 802.15.4 PANID: 0xabcd
+[2023-07-20 18:56:49] [INFO: Main      ] - 802.15.4 Default channel: 26
+[2023-07-20 18:56:49] [INFO: Main      ] Node ID: 3
+[2023-07-20 18:56:49] [INFO: Main      ] Link-layer address: f4ce.3693.f283.11e6
+[2023-07-20 18:56:49] [INFO: App       ] Starting...
+[2023-07-20 18:56:49] [INFO: App       ] Init TESTBED application...
+[2023-07-20 18:56:49] [INFO: TESTBED   ] Starting NULLTB Testbed...
+[2023-07-20 18:56:49] [INFO: TESTBED   ] - Configuring e2...
+[2023-07-20 18:56:49] [INFO: TESTBED   ] - Get traffic pattern...
+[2023-07-20 18:56:49] [WARN: TESTBED   ]  > Using preset SRCs (x1)
+[2023-07-20 18:56:49] [WARN: TESTBED   ]  > Using preset DSTs (x1)
+[2023-07-20 18:56:49] [WARN: TESTBED   ]  > No traffic_pattern! Setting using # of SRC/DST
+[2023-07-20 18:56:49] [INFO: TESTBED   ]  > traffic pattern is P2P (s:1 d:1 br:0)
+[2023-07-20 18:56:49] [INFO: TESTBED   ] - Init I2C...
+[2023-07-20 18:56:49] [INFO: TESTBED   ] - Started E2-W tb_eeprom_writer_process
+[2023-07-20 18:56:49] [INFO: TESTBED   ] - Started E2-U tb_update_pkt_flag_process
+[2023-07-20 18:56:49] [INFO: TESTBED   ] - Node type will be... D
+[2023-07-20 18:56:49] [INFO: TESTBED   ] - Printing testbed config...
+[2023-07-20 18:56:49] [INFO: TESTBED   ]  > PATTERN 0:
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * My Node ID: 3
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Traffic pattern: P2P (1)
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Sources:
+[2023-07-20 18:56:49] [INFO: TESTBED   ]      0: 1
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Destinations:
+[2023-07-20 18:56:49] [INFO: TESTBED   ]      0: 3
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Aperiodic Upper: 0
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Aperiodic Lower: 0
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Delta: 0
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Message Length: 246
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Message OffsetH: 0
+[2023-07-20 18:56:49] [INFO: TESTBED   ]   * Message OffsetL: 0
+[2023-07-20 18:56:49] [INFO: TESTBED   ] NULLTB initialized - pattern id 0: pattern: P2P msg_len:246 node_type:D s:1 d:1 br:0 f:0
+[2023-07-20 18:56:49] [INFO: OSF       ] Register a receive callback...
+[2023-07-20 18:56:49] [INFO: OSF       ] - OSF Timesync AUTO (P2P) set to node 1 ... I am NOT TS! (TS is 1)
+[2023-07-20 18:56:49] [INFO: OSF-PROTO ] --- OSF_ROUND_S ---
+[2023-07-20 18:56:49] [INFO: OSF-PROTO ] - PHY              - 2M
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - STATLEN          - TRUE
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - HEADER_AIR_TIME  -      320 ticks |     20 us
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - POST_ADDR_TIME   -        0 ticks |      0 us
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - PAYLOAD_AIR_TIME -    16192 ticks |   1012 us | 253 B
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - FOOTER_AIR_TIME  -      128 ticks |      8 us
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - PACKET_AIR_TIME  -    16640 ticks |   1040 us
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - TXRX_ADDR_OFFSET -       92 ticks |      6 us
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - TXRX_END_OFFSET  -       85 ticks |      5 us
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - SLOT_DURATION    -    19840 ticks |   1240 us
+[2023-07-20 18:56:50] [INFO: OSF-PROTO ] - ROUND_DURATION   -   115840 ticks |   7240 us
+[2023-07-20 18:56:50] [INFO: OSF-BCAST ] === OSF_PROTO_BCAST ===
+[2023-07-20 18:56:50] [INFO: OSF-BCAST ] - PROTO LEN      - 1 rounds
+[2023-07-20 18:56:50] [INFO: OSF-BCAST ] - PROTO DURATION - 115840 ticks | 7240 us
+[2023-07-20 18:56:50] [INFO: OSF       ] - NVIC_GetPriority(RADIO_IRQn)  - 0
+[2023-07-20 18:56:50] [INFO: OSF       ] - NVIC_GetPriority(TIMERX_IRQn) - 1
+[2023-07-20 18:56:50] [INFO: OSF       ] - NVIC_GetPriority(USBD_IRQn)   - 0
+[2023-07-20 18:56:51] [INFO: OSF       ] - NVIC_GetPriority(TIMER0_IRQn) - 2
+[2023-07-20 18:56:52] [INFO: OSF       ] - NVIC_GetPriority(RTC0_IRQn)   - 5
+[2023-07-20 18:56:52] [INFO: OSF       ] {3|syn-20  } <3
+[2023-07-20 18:56:53] [INFO: OSF       ] {3|syn-40  } <3
+[2023-07-20 18:56:53] [INFO: OSF       ] {3|syn-60  } <3
+[2023-07-20 18:56:54] [INFO: OSF       ] {3|syn-80  } <3
+[2023-07-20 18:56:54] [INFO: OSF       ] {3|syn-100 } <3
+[2023-07-20 18:56:55] ..RTTT
+[2023-07-20 18:56:55] CCHCCC
+[2023-07-20 18:56:55] CHCHCC
+[2023-07-20 18:56:56] CCCHCC
+[2023-07-20 18:56:57] CRTTTT
+[2023-07-20 18:56:58] CRTTTT
+[2023-07-20 18:56:59] CCHHCC
+[2023-07-20 18:57:00] RTTTTT
+[2023-07-20 18:57:01] RTTTTT
+[2023-07-20 18:57:02] CCHCCC
+[2023-07-20 18:57:03] RTTTTT
+[2023-07-20 18:57:04] RTTTTT
+[2023-07-20 18:57:05] CRTTTT
+[2023-07-20 18:57:06] RTTTTT
+[2023-07-20 18:57:07] RTTTTT
+[2023-07-20 18:57:08] CCCCCC
+[2023-07-20 18:57:09] CCCHCC
+[2023-07-20 18:57:10] CCCHCE
+[2023-07-20 18:57:11] CCRTTT
+[2023-07-20 18:57:12] CCRTTT
+[2023-07-20 18:57:13] CHHHCC
+[2023-07-20 18:57:14] CRTTTT
+[2023-07-20 18:57:15] CHCHCC
+[2023-07-20 18:57:16] CCCCHE
+[2023-07-20 18:57:17] RTTTTT
+[2023-07-20 18:57:18] CHCHCC
+[2023-07-20 18:57:19] RTTTTT
+[2023-07-20 18:57:20] CCRTTT
+[2023-07-20 18:57:21] RTTTTT
+[2023-07-20 18:57:22] RTTTTT
+[2023-07-20 18:57:23] RTTTTT
+[2023-07-20 18:57:24] HCRTTT
+[2023-07-20 18:57:25] RTTTTT
+[2023-07-20 18:57:26] RTTTTT
+[2023-07-20 18:57:27] RTTTTT
+[2023-07-20 18:57:28] CCHCHC
+[2023-07-20 18:57:29] CCCCCC
+[2023-07-20 18:57:30] HHCHCE
+[2023-07-20 18:57:31] CHCCRT
+[2023-07-20 18:57:32] CHCCCC
+[2023-07-20 18:57:33] RTTTTT
+[2023-07-20 18:57:34] RTTTTT
+[2023-07-20 18:57:35] CHCCCC
+[2023-07-20 18:57:36] CHCRTT
+[2023-07-20 18:57:37] CCRTTT
+[2023-07-20 18:57:38] RTTTTT
+[2023-07-20 18:57:39] RTTTTT
+[2023-07-20 18:57:40] RTTTTT
+[2023-07-20 18:57:41] RTTTTT
+[2023-07-20 18:57:42] CHCCCC
+[2023-07-20 18:57:43] CHCCCE
+[2023-07-20 18:57:44] CCHRTT
+[2023-07-20 18:57:45] CHCHCC
+[2023-07-20 18:57:46] CCCCCC
+[2023-07-20 18:57:47] CCCHCC
+[2023-07-20 18:57:48] RTTTTT
+[2023-07-20 18:57:49] RTTTTT

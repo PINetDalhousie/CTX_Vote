@@ -1,0 +1,19 @@
+/**
+ * \defgroup nrf52840dk nRF52840 Development Kit
+ * \ingroup nrf52840-platforms
+ */
+/**
+<<<<<<< HEAD
+ * \defgroup nrf52833dk nRF52833 Development Kit
+ * \ingroup nrf52840-platforms
+ */
+/**
+=======
+>>>>>>> dalhousie/bit-voting
+ * \defgroup nrf52840dongle nRF52840 Dongle
+ * \ingroup nrf52840-platforms
+ */
+/**
+ * \defgroup nrf52840generic All nRF52840 platforms
+ * \ingroup nrf52840-platforms
+ */

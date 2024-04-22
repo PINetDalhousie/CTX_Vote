@@ -1,0 +1,12 @@
+
+This statistics is without bit voting
+---------PRR---------
+Total correct receptions: 540
+Total failed receptions: 12
+Packet reception rate:  97.82608695652173
+---------PDR---------
+Total correct deliveries: 180
+Total failed deliveries: 0
+Packet delivery rate:  100.0
+---------BF---------
+Beating Frequency: 438538.20598006644

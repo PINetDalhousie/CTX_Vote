@@ -1,0 +1,14 @@
+
+This statistics is with Bit voting enaled
+Avg. Rx before correction: 3.0
+Total successful bit voting attempts: 1
+Total failed bit voting attempts: 0
+Percentage of successful bit voting attempts: 100.0
+Total correct receptions: 107
+Total failed receptions: 16
+Total missed receptions: 15
+Packet reception rate:  86.99186991869918
+Total correct deliveries: 36
+Total failed deliveries: 0
+Packet delivery rate:  100.0
+Total number of receptions: 123
